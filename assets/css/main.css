@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(247, 230, 252);
+}
+
+.container {
+  width: 90vw;
+  max-width: 1920px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: 3rem auto;
+  width: 100%;
+
+  object-fit: contain;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raster Image Optimization</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="assets/images/lrg/cat-lrg.jpg" width="1920" height="960"
+    srcset="assets/images/sml/cat-sml.png 500w,
+            assets/images/med/cat-med.jpg 1024w,
+            assets/images/lrg/cat-lrg.jpg 1920w"
+    loading="lazy"
+    alt="napping cat on rusty chair">
+    <img src="assets/images/lrg/nara-lrg.jpg" width="1920" height="960"
+    srcset="assets/images/sml/nara-sml.png 500w,
+            assets/images/med/nara-med.jpg 1024w,
+            assets/images/lrg/nara-lrg.jpg 1920w"
+    loading="lazy"
+    alt="deer chewing metal chain">
+    <img src="assets/images/lrg/urbanjungle-lrg.png" width="1920" height="960"
+    srcset="assets/images/sml/urbanjungle-sml.webp 500w,
+            assets/images/med/urbnjngl-med.jpg 1024w,
+            assets/images/lrg/urbnjngl-lrg.jpg 1920w"
+    loading="lazy"
+    alt="atrium in concrete interior">
+  </div>
+</body>
+</html>
