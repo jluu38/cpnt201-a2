@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(247, 230, 252);
+  background-color: rgb(214, 214, 216);
 }
 
 .container {
@@ -13,6 +13,7 @@ img {
   margin: 10rem auto;
   width: 100%;
   height: auto;
-
   object-fit: contain;
 }
+/* set height: auto to prevent large gaps between images
+(otherwise the images were always 960px regardless of srcset or width) */
